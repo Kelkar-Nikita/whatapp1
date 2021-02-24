@@ -19,6 +19,7 @@ root.geometry("500x500")
 #     value =10,
 # )
 # pgbar.pack()
+
 pgbar =Progressbar(
     root,
     length =200,
@@ -40,4 +41,5 @@ btn2= Button(
     command =stopped,
 )
 btn2.pack()
+
 root.mainloop()
